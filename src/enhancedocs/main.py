@@ -11,7 +11,7 @@ config = Config()
 app = FastAPI()
 
 embedding = OpenAIEmbeddings()
-llm = ChatOpenAI(temperature=0.7, model_name="gpt-3.5-turbo")
+llm = ChatOpenAI(temperature=0.7, model_name="gpt-4o-mini")
 
 origins = ["*"]
 
